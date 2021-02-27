@@ -1,0 +1,85 @@
+/* TAGs */
+
+p{
+    color:#ffffff;
+    font-size:15px;
+    font-family: Bahnschrift, Helvetica, arial;
+    text-shadow:1px 1px 1px #111111;
+}
+
+body{
+    background-color: #000000;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Bahnschrift, Helvetica, arial;
+}
+
+header{
+    background: rgb(58, 161, 221);
+    height:80px;
+    padding:20px;
+}
+
+footer{
+    clear:both;
+    background: rgb(58, 161, 221);
+    height:50px;
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+
+h1{
+    color:rgb(247, 128, 17);
+    text-shadow:1px 1px 1px #111111;
+    text-align: center;
+    margin:0 0 50px 0;
+}
+
+/* IDs */
+
+#principal{
+    clear:both;
+	background-image: url('cidade.jpg');
+	background-size:100%;
+	min-height: 400px;
+	padding:80px 0 0 0;
+}
+
+#logo{
+    float:left;
+    font-size: 25pt;
+    margin-top: 20px;
+}
+
+#menu{
+    margin-top: 30px;
+    float:right
+}
+
+/* Fazer referência a todos os links (tag a) dentro do id menu*/
+#menu a{
+    padding:53px 20px;
+    text-decoration: none;  /*Remover underline do link*/
+    color: black;
+}
+
+/* hover para quando passar o mouse por cima */
+
+#menu a:hover{
+    background-color:black;
+    color:rgb(58, 161, 221);
+}
+
+/* CLASS */
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.efeito{
+    background-color: rgba(0,0,0, 0.5);
+    padding:80px 0;
+}
