@@ -1,21 +1,22 @@
 /* TAGs */
 
-p{
-    color:#ffffff;
-    font-size:15px;
-    font-family: Bahnschrift, Helvetica, arial;
-    text-shadow:1px 1px 1px #111111;
-}
-
-body{
-    background-color: #000000;
-}
-
 *{
     margin:0;
     padding:0;
     font-family: Bahnschrift, Helvetica, arial;
 }
+
+p{
+    color:#ffffff;
+    font-size:15px;
+    text-shadow:1px 1px 1px #111111;
+}
+
+body{
+    background-color: rgb(58, 161, 221);
+}
+
+
 
 header{
     background: rgb(58, 161, 221);
